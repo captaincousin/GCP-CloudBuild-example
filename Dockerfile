@@ -17,4 +17,4 @@ RUN pip install -r requirements.txt
 # que aloja una aplicación FastAPI definida en el módulo app (app.py) y escucha en todas las
 # interfaces de red (0.0.0.0) en el puerto 8000. Esta configuración es típica para que una aplicación web
 # sea accesible desde fuera del contenedor.
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8080"]
