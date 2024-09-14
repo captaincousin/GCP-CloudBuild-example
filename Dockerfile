@@ -1,4 +1,4 @@
-# Utiliza la imagen oficial de Python 3.9 de Docker Hub como imagen base
+# Utiliza la imagen oficial de Python 3.9 de Docker Hub como imagen base1
 FROM python:3.9
 
 # Establece el directorio de trabajo dentro del contenedor en /app.
