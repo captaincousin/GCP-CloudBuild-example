@@ -8,4 +8,4 @@ app = FastAPI()
 @app.get("/")
 def home():
     # Retorna un simple mensaje de texto
-    return 'Hola mundo: Model API - VERSION 1'
+    return 'Hola mundo: Model API - VERSION 0'
